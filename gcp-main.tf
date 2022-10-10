@@ -1,6 +1,6 @@
 resource "google_app_engine_application" "app" {
   project     = "lab-devops-cloud-lilia"
-  location_id = "us-central"
+  location_id = "us-central1"
 }
 
 resource "google_artifact_registry_repository" "my-repo" {
